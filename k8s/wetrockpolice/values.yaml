@@ -11,10 +11,6 @@ paypal:
   secret: ''
 ticketsource:
   secret: ''
-sidekiq:
-  replicaCount: 0
-  autoscaling:
-    enabled: false
 image:
   repository: syntaf/wetrockpolice
   pullPolicy: IfNotPresent
