@@ -6,11 +6,6 @@ replicaCount: 2
 masterKey: rails-master-key
 sendgrid:
   password: ''
-paypal:
-  clientId: ''
-  secret: ''
-ticketsource:
-  secret: ''
 image:
   repository: syntaf/wetrockpolice
   pullPolicy: IfNotPresent
