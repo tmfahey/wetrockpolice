@@ -6,6 +6,9 @@ replicaCount: 2
 masterKey: rails-master-key
 sendgrid:
   password: ''
+# Placeholder — the real value comes from secrets.yaml at deploy time.
+synoptic:
+  token: ''
 image:
   repository: syntaf/wetrockpolice
   pullPolicy: IfNotPresent
